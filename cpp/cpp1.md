@@ -21,13 +21,13 @@ int main() {
     A();
     int i = 69;
     int number = 72;
-    i = i + number; // теперь i == 141
+    i = i + number;
     int arr[3] = {0, 0, 0};
     int* iPointer = &i;
-    number = *iPointer; // number = значение i (141)
-    *iPointer = 15; // теперь i == 15
-    iPointer = &arr[0]; // iPointer указывает на arr[0]
-    iPointer += 2; // теперь iPointer указывает на arr[2] (третий элемент)
+    number = *iPointer;
+    *iPointer = 15;
+    iPointer = &arr[0];
+    iPointer += 2;
     arr[0] = 5;
     *iPointer = 6;
     cout << "i = " << i << endl;
