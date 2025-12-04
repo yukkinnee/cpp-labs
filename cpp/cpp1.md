@@ -1,10 +1,11 @@
 # Лабораторная работа 1
 
+## 1. Инструкции
 ```cpp
 #include <iostream>
 using namespace std;
 
-// Функции
+
 void B() {
     cout << "called B" << endl;
 }
@@ -22,6 +23,16 @@ void A() {
 int main() {
     cout << "Hello" << endl;
     A();
+}
+```
+
+  
+## 5. Терминология и синтаксис
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
     
     int i;
     i = 69;
